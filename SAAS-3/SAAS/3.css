@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #808080;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 50px;
+  font-family: sans-serif;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+.icon:hover {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+span {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.blog-icon {
+  background-color: #e17b77;
+  color: #ffffff;
+}
+
+.blog-icon:hover {
+  background-color: #e17b77;
+  width: 300px;
+  color: #ffffff;
+}
+
+.twitter-icon {
+  background-color: #00aced;
+  color: #ffffff;
+}
+
+.twitter-icon:hover {
+  background-color: #00aced;
+  width: 300px;
+  color: #ffffff;
+}
+
+.linkedin-icon {
+  background-color: #007bb6;
+  color: #ffffff;
+}
+
+.linkedin-icon:hover {
+  background-color: #007bb6;
+  width: 300px;
+  color: #ffffff;
+}
+
+.facebook-icon {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+.facebook-icon:hover {
+  background-color: #3b5998;
+  width: 300px;
+  color: #ffffff;
+}
+
+.github-icon {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.github-icon:hover {
+  background-color: #333;
+  width: 300px;
+  color: #ffffff;
+}/*# sourceMappingURL=3.css.map */

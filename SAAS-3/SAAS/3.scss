@@ -1,0 +1,90 @@
+//browser rest code
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//color variable declaretions
+$main-bgcolor:#808080;
+$blog-bgcolor:#e17b77;
+$blog-txcolor:#ffffff;
+$twit-bgcolor:#00aced;
+$link-bgcolor:#007bb6;
+$facebook-bgcolor:#3b5998;
+$github-bgcolor:#333;
+$icon-width:300px;
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background: $main-bgcolor;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    text-align: center;
+    transition: all .5s ease-out;
+}
+.icon:hover{
+    width: $icon-width;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+span{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.blog-icon{
+    background-color: $blog-bgcolor;
+    color: $blog-txcolor;
+}
+.blog-icon:hover{
+    background-color: $blog-bgcolor;
+    width: $icon-width;
+    color: $blog-txcolor;
+}
+.twitter-icon{
+    background-color: $twit-bgcolor;
+    color: $blog-txcolor;
+}
+.twitter-icon:hover{
+    background-color: $twit-bgcolor;
+    width: $icon-width;
+    color: $blog-txcolor;
+}
+.linkedin-icon{
+    background-color: $link-bgcolor;
+    color:$blog-txcolor;
+}
+.linkedin-icon:hover{
+    background-color: $link-bgcolor;
+    width: $icon-width;
+    color: $blog-txcolor;
+}
+.facebook-icon{
+    background-color: $facebook-bgcolor;
+    color: $blog-txcolor;
+
+}
+.facebook-icon:hover{
+    background-color: $facebook-bgcolor;
+    width: $icon-width;
+    color: $blog-txcolor;
+}
+.github-icon{
+    background-color: $github-bgcolor;
+    color: $blog-txcolor;
+}
+.github-icon:hover{
+    background-color: $github-bgcolor;
+    width: $icon-width;
+    color: $blog-txcolor;
+}
